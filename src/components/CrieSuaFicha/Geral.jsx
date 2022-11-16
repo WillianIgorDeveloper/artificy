@@ -1,3 +1,5 @@
+// Mudar a escolha de imagem para inserir link ou excluir escolha de imagem
+
 import { UserCirclePlus, Trash } from "phosphor-react"
 import { useCharacterSheet } from "../../hooks/useCharacterSheet";
 
@@ -11,7 +13,7 @@ export const Geral = () => {
             <legend className="hidden">Geral</legend>
             <div className="flex items-center flex-col gap-6 self-center md:flex-row">
                <div className="flex items-start">
-                  <div className="p-1 text-xl rounded mr-3 bg-marcelin-500 hover:cursor-pointer" onClick={() => {characterSheet.handleImage("Delete")}} ><Trash /></div>
+                  <div className="p-1 text-xl rounded mr-3 bg-marcelin-500 hover:cursor-pointer md:active:scale-75" onClick={() => {characterSheet.handleImage("Delete")}} ><Trash /></div>
                   <div className="flex flex-col items-center">
                      {
                         characterSheet.characterSheet.image === undefined
