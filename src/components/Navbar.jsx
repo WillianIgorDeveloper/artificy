@@ -7,7 +7,7 @@ export const Navbar = () => {
    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
    return (
-      <>
+      <div className="print:hidden">
          <div className="fixed w-full bg-vonCount-700 z-40">
             <div className="container m-auto flex flex-col justify-center lg:flex-row lg:justify-between">
                <div className="flex justify-between items-center px-2">
@@ -29,7 +29,7 @@ export const Navbar = () => {
             </div>
          </div>
          <div className="h-[72px]"></div>
-      </>
+      </div>
    )
 }
 

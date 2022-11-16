@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media print {
+   * {
+      color: #3b425a ;
+   }
+   @page {
+      margin: 10px;
+   }
+}

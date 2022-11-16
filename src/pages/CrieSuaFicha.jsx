@@ -5,12 +5,12 @@ export const CrieSuaFicha = () => {
    return (
       <main>
          <section className="container m-auto p-2">
-            <div className="flex items-center gap-6 relative -bottom-3 -z-10">
+            <div className="flex items-center gap-6 relative -bottom-3 -z-10 print:hidden">
                <img src="/wizard.png" alt="Mago" className="w-28" />
                <h2 className="text-center text-3xl font-semibold">Crie a sua ficha!</h2>
             </div>
 
-            <ul className="flex overflow-hidden overflow-x-auto scrollbar-thin scrollbar-thumb-vonCount-600">
+            <ul className="flex overflow-hidden overflow-x-auto scrollbar-thin scrollbar-thumb-vonCount-600 print:hidden">
                <MenuItem to=''>Geral</MenuItem>
                <MenuItem to='raca'>Raça</MenuItem>
                <MenuItem to='classe'>Classe</MenuItem>
