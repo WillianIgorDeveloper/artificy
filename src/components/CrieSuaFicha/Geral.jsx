@@ -9,7 +9,7 @@ export const Geral = () => {
       <form>
          <fieldset className="flex flex-col md:flex-row md:justify-evenly">
             <legend className="hidden">Geral</legend>
-            <div className="flex items-center gap-6 self-center">
+            <div className="flex items-center flex-col gap-6 self-center md:flex-row">
                <div className="flex items-start">
                   <div className="p-1 text-xl rounded mr-3 bg-marcelin-500 hover:cursor-pointer" onClick={() => {characterSheet.handleImage("Delete")}} ><Trash /></div>
                   <div className="flex flex-col items-center">

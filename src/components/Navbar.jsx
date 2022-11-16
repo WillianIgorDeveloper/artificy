@@ -43,7 +43,7 @@ const MenuItem = ({to, setIsMenuOpen, isMenuOpen, children}) => {
 
    return (
       <li onClick={() => {setIsMenuOpen(!isMenuOpen)}}>
-         <Link className={`px-6 py-2 text-lg flex items-center gap-2 ${isActive ? "bg-vonCount-900 hover:cursor-default lg:hover:bg-vonCount-900" : ""} lg:rounded-t lg:hover:bg-vonCount-600`} to={to}>
+         <Link className={`px-6 py-2 text-lg flex items-center gap-2 ${isActive ? "bg-vonCount-900 hover:cursor-default hover:bg-vonCount-900" : "hover:bg-vonCount-600"} lg:rounded-t`} to={to}>
             {children}
          </Link>
       </li>
