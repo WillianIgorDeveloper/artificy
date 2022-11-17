@@ -1,3 +1,22 @@
+export const books = [
+    {
+        id: "caldeiraoDeTashaParaTudo",
+        name: "Caldeirao de Tasha para tudo",
+    },
+    {
+        id: "guiaDeXanatharSobreTodasAsCoisas",
+        name: "Guia de Xanathar sobre Todas as Coisas",
+    },
+    {
+        id: "guiaDoVoloParaMonstros",
+        name: "Guia do Volo para Monstros",
+    },
+    {
+        id: "monstrosDoMultiverso",
+        name: "Monstros do Multiverso",
+    },
+]
+
 export const livroDoJogador = {
     races: {
         listOfRaces: [
@@ -77,24 +96,7 @@ export const livroDoJogador = {
     }
 }
 
-export const books = [
-    {
-        id: "caldeiraoDeTashaParaTudo",
-        name: "Caldeirao de Tasha para tudo",
-    },
-    {
-        id: "guiaDeXanatharSobreTodasAsCoisas",
-        name: "Guia de Xanathar sobre Todas as Coisas",
-    },
-    {
-        id: "guiaDoVoloParaMonstros",
-        name: "Guia do Volo para Monstros",
-    },
-    {
-        id: "monstrosDoMultiverso",
-        name: "Monstros do Multiverso",
-    },
-]
+
 
 export const caldeiraoDeTashaParaTudo = {
 
