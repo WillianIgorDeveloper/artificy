@@ -41,3 +41,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </React.StrictMode>
 )
+
+
+
+
+// Anotações
+// Salvar o local storage com uma key única, e usar ela para salvar o charactereSheet em um servidor
+// Fazer verificação a cada 10 segundos se o objeto foi alterado para salvar
+// Amostrar um toast sempre que os dados estiverem sendo salvos
+// Salvar quando o usuário clicar em salvar ou quando o usuário apertar ctrl+s
+// Sempre que a página for aberta, sincronizar os dados do local storage com o do servidor
+// Informar a key da ficha e permitir que o usuário insira uma key para carregar tosdos os dados

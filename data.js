@@ -18,85 +18,45 @@ export const books = [
 ]
 
 export const livroDoJogador = {
-    races: {
-        listOfRaces: [
-            {
-                id: "anao",
-                name: "Anão",
-            },
-            {
-                id: "draconato",
-                name: "Draconato",
-            },
-            {
-                id: "elfo",
-                name: "Elfo",
-            },
-            {
-                id: "gnomo",
-                name: "Gnomo",
-            },
-            {
-                id: "humano",
-                name: "Humano",
-            },
-            {
-                id: "meioElfo",
-                name: "Meio-Elfo",
-            },
-            {
-                id: "meioOrc",
-                name: "Meio-Orc",
-            },
-            {
-                id: "pequenino",
-                name: "Pequenino",
-            },
-            {
-                id: "tiferino",
-                name: "Tiferino",
-            },
-        ],
-        // anao: {
-        //     subRaca,
-        // },
-        // draconato: {
-        //     herancaDraconica,
-        //     proeficienciaComFerramenta,
-        // },
-        // elfo: {
-        //     subRaca,
-        //         truque,
-        //         idioma
-        // },
-        // gnomo: {
-        //     subRaca,
-        // },
-        // humano: {
-        //     idioma,
-        //     subRaca
-        //         pontoDeAtributo
-        //         pericia
-        //         talento
-        // },
-        // meioElfo: {
-        //     pontosDeAtributo,
-        //     pericia,
-        //     idioma,
-        // },
-        // meioOrc: {
-
-        // },
-        // pequenino: {
-        //     subRaca,
-        // }, 
-        // tiferino: {
-
-        // }
-    }
+    listOfRaces: [
+        {
+            id: "anao",
+            name: "Anão",
+        },
+        {
+            id: "draconato",
+            name: "Draconato",
+        },
+        {
+            id: "elfo",
+            name: "Elfo",
+        },
+        {
+            id: "gnomo",
+            name: "Gnomo",
+        },
+        {
+            id: "humano",
+            name: "Humano",
+        },
+        {
+            id: "meioElfo",
+            name: "Meio-Elfo",
+        },
+        {
+            id: "meioOrc",
+            name: "Meio-Orc",
+        },
+        {
+            id: "pequenino",
+            name: "Pequenino",
+        },
+        {
+            id: "tiferino",
+            name: "Tiferino",
+        },
+    ],
 }
-
-
 
 export const caldeiraoDeTashaParaTudo = {
 
@@ -107,202 +67,410 @@ export const guiaDeXanatharSobreTodasAsCoisas = {
 }
 
 export const guiaDoVoloParaMonstros = {
-    races: {
-        listOfRaces: [
-            {
-                id: "aasimar",
-                name: "Aasimar",
-            },
-            {
-                id: "firbolg",
-                name: "Firbolg",
-            },
-            {
-                id: "golias",
-                name: "Golias",
-            },
-            {
-                id: "kenku",
-                name: "Kenku",
-            },
-            {
-                id: "povolagarto",
-                name: "Povo-Lagarto",
-            },
-            {
-                id: "tabaxi",
-                name: "Tabaxi",
-            },
-            {
-                id: "tritao",
-                name: "Tritão",
-            },
-            {
-                id: "bugbear",
-                name: "Bugbear",
-            },
-            {
-                id: "goblin",
-                name: "Goblin",
-            },
-            {
-                id: "hobgoblin",
-                name: "Hobgoblin",
-            },
-            {
-                id: "kobold",
-                name: "Kobold",
-            },
-            {
-                id: "orc",
-                name: "Orc",
-            },
-            {
-                id: "yuantipurosangue",
-                name: "Yuan-ti Puro Sangue"
-            }
-        ],
-    }
+    listOfRaces: [
+        {
+            id: "aasimar",
+            name: "Aasimar",
+        },
+        {
+            id: "firbolg",
+            name: "Firbolg",
+        },
+        {
+            id: "golias",
+            name: "Golias",
+        },
+        {
+            id: "kenku",
+            name: "Kenku",
+        },
+        {
+            id: "povolagarto",
+            name: "Povo-Lagarto",
+        },
+        {
+            id: "tabaxi",
+            name: "Tabaxi",
+        },
+        {
+            id: "tritao",
+            name: "Tritão",
+        },
+        {
+            id: "bugbear",
+            name: "Bugbear",
+        },
+        {
+            id: "goblin",
+            name: "Goblin",
+        },
+        {
+            id: "hobgoblin",
+            name: "Hobgoblin",
+        },
+        {
+            id: "kobold",
+            name: "Kobold",
+        },
+        {
+            id: "orc",
+            name: "Orc",
+        },
+        {
+            id: "yuantipurosangue",
+            name: "Yuan-ti Puro Sangue"
+        }
+    ],
 }
 
 export const monstrosDoMultiverso = {
-    races: {
-        listOfRaces: [
+    listOfRaces: [
+        {
+            id: "aarakocra",
+            name: "Aarakocra",
+        },
+        {
+            id: "aasimar",
+            name: "Aasimar",
+        },
+        {
+            id: "bugbear",
+            name: "Bugbear",
+        },
+        {
+            id: "centauro",
+            name: "Centauro",
+        },
+        {
+            id: "transfigurador",
+            name: "Transfigurador",
+        },
+        {
+            id: "gnomodasprofundezas",
+            name: "Gnomo Das Profundezas",
+        },
+        {
+            id: "duergar",
+            name: "Duergar",
+        },
+        {
+            id: "eladrin",
+            name: "Eladrin",
+        },
+        {
+            id: "fada",
+            name: "Fada",
+        },
+        {
+            id: "firbolg",
+            name: "Firbolg",
+        },
+        {
+            id: "genasidoar",
+            name: "Genasi do Ar",
+        },
+        {
+            id: "genasidaterra",
+            name: "Genasi da Terra",
+        },
+        {
+            id: "genasidofogo",
+            name: "Genasi do Fogo",
+        },
+        {
+            id: "genasidaagua",
+            name: "Genasi da Água",
+        },
+        {
+            id: "githyanki",
+            name: "Githyanki",
+        },
+        {
+            id: "githzerai",
+            name: "Githzerai",
+        },
+        {
+            id: "goblin",
+            name: "Goblin",
+        },
+        {
+            id: "golias",
+            name: "Golias",
+        },
+        {
+            id: "haregon",
+            name: "Haregon",
+        },
+        {
+            id: "hobgoblin",
+            name: "Hobgoblin",
+        },
+        {
+            id: "kenku",
+            name: "Kenku",
+        },
+        {
+            id: "kobold",
+            name: "Kobold",
+        },
+        {
+            id: "povolagarto",
+            name: "Povo-Lagarto",
+        },
+        {
+            id: "minotauro",
+            name: "Minotauro",
+        },
+        {
+            id: "orc",
+            name: "Orc",
+        },
+        {
+            id: "satiro",
+            name: "Sátiro",
+        },
+        {
+            id: "elfodomar",
+            name: "Elfo do Mar",
+        },
+        {
+            id: "shadarkai",
+            name: "Shadar-Kai",
+        },
+        {
+            id: "transmorfo",
+            name: "Transmorfo",
+        },
+        {
+            id: "tabaxi",
+            name: "Tabaxi",
+        },
+        {
+            id: "tortle",
+            name: "Tortle",
+        },
+        {
+            id: "tritao",
+            name: "Tritão",
+        },
+        {
+            id: "yuanti",
+            name: "Yuan-ti",
+        },
+    ],
+}
+
+export const races = {
+    anao: {
+        name: "Anão",
+        subRace: {
+            options: [
+                {
+                    id: "anaoDaColina",
+                    name: "Anão da Colina",
+                },
+                {
+                    id: "anaoDaMontanha",
+                    name: "Anão da Montanha",
+                },
+            ],
+        },
+        choices: [
             {
-                id: "aarakocra",
-                name: "Aarakocra",
-            },
-            {
-                id: "aasimar",
-                name: "Aasimar",
-            },
-            {
-                id: "bugbear",
-                name: "Bugbear",
-            },
-            {
-                id: "centauro",
-                name: "Centauro",
-            },
-            {
-                id: "transfigurador",
-                name: "Transfigurador",
-            },
-            {
-                id: "gnomodasprofundezas",
-                name: "Gnomo Das Profundezas",
-            },
-            {
-                id: "duergar",
-                name: "Duergar",
-            },
-            {
-                id: "eladrin",
-                name: "Eladrin",
-            },
-            {
-                id: "fada",
-                name: "Fada",
-            },
-            {
-                id: "firbolg",
-                name: "Firbolg",
-            },
-            {
-                id: "genasidoar",
-                name: "Genasi do Ar",
-            },
-            {
-                id: "genasidaterra",
-                name: "Genasi da Terra",
-            },
-            {
-                id: "genasidofogo",
-                name: "Genasi do Fogo",
-            },
-            {
-                id: "genasidaagua",
-                name: "Genasi da Água",
-            },
-            {
-                id: "githyanki",
-                name: "Githyanki",
-            },
-            {
-                id: "githzerai",
-                name: "Githzerai",
-            },
-            {
-                id: "goblin",
-                name: "Goblin",
-            },
-            {
-                id: "golias",
-                name: "Golias",
-            },
-            {
-                id: "haregon",
-                name: "Haregon",
-            },
-            {
-                id: "hobgoblin",
-                name: "Hobgoblin",
-            },
-            {
-                id: "kenku",
-                name: "Kenku",
-            },
-            {
-                id: "kobold",
-                name: "Kobold",
-            },
-            {
-                id: "povolagarto",
-                name: "Povo-Lagarto",
-            },
-            {
-                id: "minotauro",
-                name: "Minotauro",
-            },
-            {
-                id: "orc",
-                name: "Orc",
-            },
-            {
-                id: "satiro",
-                name: "Sátiro",
-            },
-            {
-                id: "elfodomar",
-                name: "Elfo do Mar",
-            },
-            {
-                id: "shadarkai",
-                name: "Shadar-Kai",
-            },
-            {
-                id: "transmorfo",
-                name: "Transmorfo",
-            },
-            {
-                id: "tabaxi",
-                name: "Tabaxi",
-            },
-            {
-                id: "tortle",
-                name: "Tortle",
-            },
-            {
-                id: "tritao",
-                name: "Tritão",
-            },
-            {
-                id: "yuanti",
-                name: "Yuan-ti",
+                id: "proficiênciaComFerramentas",
+                name: "Proficiência com Ferramentas",
+                label: "Ferramentas",
+                options: [
+                    {
+                        id: "ferraria",
+                        name: "Ferraria",
+                    },
+                    {
+                        id: "cervejaria",
+                        name: "Cervejaria",
+                    },
+                    {
+                        id: "alvenaria",
+                        name: "Alvenaria",
+                    },
+                ],
             },
         ],
+        descriptions: {
+            base: [
+                "Aumento no Valor de Atributo: Constituição +2",
+                "Tamanho: Médio",
+                "Deslocamento: 7,5 metros",
+                "Visão no Escuro",
+                "Resistência a Toxinas",
+                "Treinamento Anão em Combate",
+                "Conhecimento de Pedras",
+                "Idiomas: Comun e Anão",
+            ],
+            anaoDaColina: [
+                "Aumento no Valor de Atributo: Sabedoria +1",
+                "Tenacidade Anã",
+            ],
+            anaoDaMontanha: [
+                "Aumento no Valor de Atributo: Força +2",
+                "Treinamento Anão com Armaduras",
+            ],
+        },
+    },
+    draconato: {
+        name: "Anão",
+        choices: [
+            {
+                id: "herancaDraconica",
+                name: "Herança Dracônica",
+                label: "Dragão",
+                options: [
+                    {
+                        id: "azul",
+                        name: "Azul",
+                    },
+                    {
+                        id: "branco",
+                        name: "Branco",
+                    },
+                    {
+                        id: "bronze",
+                        name: "Bronze",
+                    },
+                    {
+                        id: "cobre",
+                        name: "Cobre",
+                    },
+                    {
+                        id: "latao",
+                        name: "Latão",
+                    },
+                    {
+                        id: "negro",
+                        name: "Negro",
+                    },
+                    {
+                        id: "ouro",
+                        name: "Ouro",
+                    },
+                    {
+                        id: "prata",
+                        name: "Prata",
+                    },
+                    {
+                        id: "verde",
+                        name: "Verde",
+                    },
+                    {
+                        id: "vermelho",
+                        name: "Vermelho",
+                    },
+                ],
+            },
+        ],
+        descriptions: {
+            base: [
+                "Aumento no Valor de Atributo: Força +2, Carisma +1",
+                "Tamanho: Médio",
+                "Deslocamento: 9 metros",
+                "Ataque de Sopro",
+                "Resistência a Dano",
+                "Idiomas: Comun e Dracônico",
+            ],
+        },
+    },
+    elfo: {
+        name: "Elfo",
+        subRace: {
+            options: [
+                {
+                    id: "altoElfo",
+                    name: "Alto Elfo",
+                },
+                {
+                    id: "elfoSilvestre",
+                    name: "Elfo Silvestre",
+                },
+                {
+                    id: "elfoObscuroDrow",
+                    name: "Elfo Obscuro (Drow)",
+                },
+            ],
+            choices: [
+                {
+                    for: "altoElfo",
+                    id: "truque",
+                    name: "Truque",
+                    label: "Truque de Mago",
+                    options: "truqueDeMago",
+                },
+                {
+                    for: "altoElfo",
+                    id: "idiomaExtra",
+                    name: "Idioma Extra",
+                    label: "Idioma",
+                    options: "idioma",
+                },
+            ],
+        },
+        descriptions: {
+            base: [
+                "Aumento no Valor de Atributo: Destreza +2",
+                "Tamanho: Médio",
+                "Visão no Escuro",
+                "Sentidos Aguçados",
+                "Ancestralidade Feérica",
+                "Transe",
+                "Idiomas: Comun e Élfico",
+            ],
+            altoElfo: [
+                "Deslocamento: 9 metxros",
+                "Aumento no Valor de Atributo: Inteligência +1",
+                "Treinamento Élfico com Armas",
+            ],
+            elfoSilvestre: [
+                "Deslocamento: 10,5 metros",
+                "Aumento no Valor de Atributo: Sabedoria +1",
+                "Treinamento Élfico com Armas",
+                "Máscara da Natureza",
+            ],
+            elfoObscuroDrow: [
+                "Deslocamento: 9 metxros",
+                "Aumento no Valor de Atributo: Carisma +1",
+                "Visão no Escuro Aprimorada",
+                "Sensibilidade à Luz Solar",
+                "Magia Drow",
+                "Treinamento Drow com Armas",
+            ],
+        },
+    },
+    gnomo: {
+        // subRaca,
+    },
+    humano: {
+        // idioma,
+        // subRaca
+        //     pontoDeAtributo
+        //     pericia
+        //     talento
+    },
+    meioElfo: {
+        // pontosDeAtributo,
+        // pericia,
+        // idioma,
+    },
+    meioOrc: {
+        
+    },
+    pequenino: {
+        // subRaca,
+    }, 
+    tiferino: {
+
     }
 }
+
+
 
 
 // export const races = [

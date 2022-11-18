@@ -43,6 +43,35 @@ export const useCharacterSheet = () => {
             delete characterSheet[e.target.value]
             setHandleDelete(!handleDelete)
          }
+      },
+
+      handleRace: (e) => {
+         delete characterSheet.subRace
+         delete characterSheet.choices
+         if (e.target.value === '') {
+            delete characterSheet.race
+            setHandleDelete(!handleDelete)
+         } else {
+            setCharacterSheet({...characterSheet, race: e.target.value})
+         }
+      },
+
+      handleSubRace: (e) => {
+         if (e.target.value === '') {
+            delete characterSheet.subRace
+            setHandleDelete(!handleDelete)
+         } else {
+            setCharacterSheet({...characterSheet, subRace: e.target.value})
+         }
+      },
+
+      handleChoices: (e) => {
+         if (e.target.value === '') {
+            delete characterSheet.choices[e.target.name]
+            setHandleDelete(!handleDelete)
+         } else {
+            setCharacterSheet({...characterSheet, choices: {...characterSheet.choices, [e.target.name]: e.target.value}})
+         }
       }
    }
 }

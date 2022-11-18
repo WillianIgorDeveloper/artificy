@@ -4,3 +4,7 @@ export const Descricao = () => {
       <span>Descricao</span>
    )
 }
+
+// Idade
+// Alinhamento
+// tamanho
